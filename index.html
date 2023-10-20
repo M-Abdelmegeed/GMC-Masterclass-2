@@ -21,39 +21,22 @@
       <li><a href="test.html" target="_blank">Test</a></li>
     </ul>
     <h1>NBA Store Egypt</h1>
-    <div class="grid-container">
+    <h3 id="total-price">Price: 0</h3>
+    <h3 id="no-of-items">Items: 0</h3>
+    <div class="grid-container" id="grid-container">
       <div class="grid-item">
         <img src="Bucks.png" alt="Bucks Tank Top" />
         <div>Bucks Tank '23</div>
-        <div>Price: 99.99$</div>
+        <div id="price-1">Price: 99.99$</div>
         <div>
-          <button>Add to Cart</button>
+          <button id="add-1">Add to Cart</button>
+          <button style="background-color: red" id="remove-1">
+            Remove from Cart
+          </button>
         </div>
       </div>
-      <div class="grid-item">
-        <img src="Celtics.png" alt="Celtics Tank Top" />
-        <div>Celtics Tank '23</div>
-        <div>Price: 99.99$</div>
-        <div>
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="grid-item">
-        <img src="Lakers.png" alt="Lakers Tank Top" />
-        <div>Lakers Tank '23</div>
-        <div>Price: 99.99$</div>
-        <div>
-          <button id="lakers-btn">Add to Cart</button>
-        </div>
-      </div>
-      <div class="grid-item">
-        <img src="Bulls 2.png" alt="Bulls Tank Top" />
-        <div>Bulls Tank '23</div>
-        <div>Price: 99.99$</div>
-        <div>
-          <button>Add to Cart</button>
-        </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
